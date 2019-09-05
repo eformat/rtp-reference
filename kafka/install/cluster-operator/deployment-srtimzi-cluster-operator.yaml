@@ -179,7 +179,7 @@ metadata:
     app: strimzi
 spec:
   group: kafka.strimzi.io
-  version: v1alpha1
+  version: v1beta1
   scope: Namespaced
   names:
     kind: KafkaMirrorMaker
@@ -590,7 +590,7 @@ metadata:
     app: strimzi
 spec:
   group: kafka.strimzi.io
-  version: v1alpha1
+  version: v1beta1
   scope: Namespaced
   names:
     kind: KafkaTopic
@@ -627,7 +627,7 @@ metadata:
     app: strimzi
 spec:
   group: kafka.strimzi.io
-  version: v1alpha1
+  version: v1beta1
   scope: Namespaced
   names:
     kind: KafkaUser
@@ -761,7 +761,7 @@ metadata:
     app: strimzi
 spec:
   group: kafka.strimzi.io
-  version: v1alpha1
+  version: v1beta1
   scope: Namespaced
   names:
     kind: KafkaConnect
@@ -1131,7 +1131,7 @@ metadata:
     app: strimzi
 spec:
   group: kafka.strimzi.io
-  version: v1alpha1
+  version: v1beta1
   scope: Namespaced
   names:
     kind: Kafka
@@ -2526,7 +2526,7 @@ metadata:
     app: strimzi
 spec:
   group: kafka.strimzi.io
-  version: v1alpha1
+  version: v1beta1
   scope: Namespaced
   names:
     kind: KafkaConnectS2I
