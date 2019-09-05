@@ -58,7 +58,7 @@
     <arquillian-cube-openshift.version>1.9.0</arquillian-cube-openshift.version>
     <arquillian-junit-container.version>1.1.12.Final</arquillian-junit-container.version>
     <camel.version>2.21.0.fuse-710018-redhat-00001</camel.version>
-    <fabric8-maven-plugin.version>3.5.41</fabric8-maven-plugin.version>
+    <fabric8-maven-plugin.version>4.2.0</fabric8-maven-plugin.version>
     <fuse.version>7.1.0.fuse-710019-redhat-00002</fuse.version>
     <hibernate-core.version>5.3.7.Final-redhat-00001</hibernate-core.version>
     <infinispan-client-hotrod.version>8.5.3.Final-redhat-00002</infinispan-client-hotrod.version>
