@@ -564,7 +564,7 @@ oc get routes | grep rtp-debtor-payment-service
 rtp-debtor-payment-service     rtp-debtor-payment-service-rtp-reference.192.168.64.8.nip.io               rtp-debtor-payment-service     8080                      None
 ```
 
-Using a rest client, POST the following request body to the Debtor Payment Service URL:
+Using a rest client, POST the following request body to the Debtor Payment Service URL '/payments-service/payments'
 ```
 {
   "payments":[
@@ -579,6 +579,20 @@ Using a rest client, POST the following request body to the Debtor Payment Servi
   ]
 }
 ```
+
+## Browsable URLS
+
+```
+oc get routes | grep rtp-flow-viz-service
+rtp-flow-viz-service                   rtp-flow-viz-service-rtp-reference.apps.foo.sandbox139.opentlc.com                          rtp-flow-viz-service                   8080                 None
+
+oc get routes | grep rtp-debtor-payment-service
+rtp-debtor-payment-service             rtp-debtor-payment-service-rtp-reference.apps.foo.sandbox139.opentlc.com                    rtp-debtor-payment-service             8080                 None
+
+oc get routes | grep rtp-creditor-payment-service
+rtp-creditor-payment-service           rtp-creditor-payment-service-rtp-reference.apps.foo.sandbox139.opentlc.com                  rtp-creditor-payment-service           8080                 None
+```
+
 
 ## Resources
 
